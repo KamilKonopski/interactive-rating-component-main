@@ -25,7 +25,6 @@ Select and submit a number rating
 See the "Thank you" card state after submitting a rating
 Screenshot
 
-
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
 Alternatively, you can use a tool like FireShot to take the screenshot. FireShot has a free option, so you don't need to purchase it.
@@ -76,6 +75,6 @@ Example resource 2 - This is an amazing article which helped me finally understa
 Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.
 
 Author
-Website - onopski-tsi.pl
+Website - konopski-tsi.pl
 Frontend Mentor - @kamilkonopski
-Twitter - @maers__
+Twitter - @maers\_\_

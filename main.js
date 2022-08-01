@@ -1,4 +1,4 @@
-const rates = document.querySelectorAll('.rates');
+const rates = document.querySelectorAll('.rate');
 const submitButton = document.querySelector('.submit');
 const currentRate = document.getElementById('current-rate');
 

@@ -19,3 +19,8 @@ body {
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
 }
+
+.rates {
+    font-size: 20px;
+    padding: 20px;
+}

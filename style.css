@@ -163,3 +163,15 @@ body {
     color: var(--white);
     margin-top: 30px;
 }
+
+@media screen and (max-width: 400px) {
+
+    .active-state,
+    .thank-you-state {
+        width: 90%;
+    }
+
+    .attribution {
+        margin: 30px;
+    }
+}

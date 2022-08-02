@@ -16,7 +16,9 @@ rates.forEach(rate => {
 
 submitButton.addEventListener('click', () => {
     currentRate.innerText = currentNumber;
-
-    activeState.style.display = 'none';
-    thankYouState.style.display = "flex";
+    if(currentNumber > 0) {
+        activeState.style.display = 'none';
+        thankYouState.style.display = "flex";
+    }
+    
 });

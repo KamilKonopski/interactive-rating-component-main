@@ -1,10 +1,11 @@
 :root {
-    --orange: hsl(25, 97%, 53%);
-    --white: hsl(0, 0%, 100%);
-    --lightGrey: hsl(217, 12%, 63%);
-    --mediumGrey: hsl(216, 12%, 54%);
-    --darkBlue: hsl(213, 19%, 18%);
-    --veryDarkBlue: hsl(216, 12%, 8%);
+    --orange: #fb7413;
+    --white: #ffffff;
+    --lightGrey: #959eac;
+    --mediumGrey: #7c8798;
+    --lighterBlue: #2d3741;
+    --darkBlue: #252d37;
+    --veryDarkBlue: #121417;
     --mobile: 375px;
     --desktop: 1440px;
 }
@@ -16,11 +17,149 @@
 }
 
 body {
+    align-items: center;
+    background-color: var(--veryDarkBlue);
+    display: flex;
+    flex-direction: column;
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
+    height: 100vh;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: var(--desktop);
 }
 
-.rates {
-    font-size: 20px;
-    padding: 20px;
+.active-state {
+    background-color: var(--darkBlue);
+    border-radius: 15px;
+    width: 28%;
+}
+
+.active-state .icon {
+    align-items: center;
+    background-color: var(--lighterBlue);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.active-state .icon img {
+    width: 35%;
+}
+
+.active-state .text {
+    margin: 15px 35px 15px 20px;
+}
+
+.active-state .text h1 {
+    color: var(--white);
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.active-state .text p {
+    color: var(--mediumGrey);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.active-state .rates {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.active-state .rates .rate {
+    background-color: var(--lighterBlue);
+    border: none;
+    border-radius: 50%;
+    color: var(--mediumGrey);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    height: 50px;
+    margin: 0 10px;
+    width: 50px;
+    transition: 0.2s;
+}
+
+.active-state .rates .rate:hover {
+    background-color: var(--lightGrey);
+    color: var(--white);
+}
+
+.active-state .rates .rate:focus {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.active-state .submit {
+    border: none;
+    border-radius: 20px;
+    color: var(--orange);
+    cursor: pointer;
+    display: block;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 30px auto;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+    transition: 0.2s;
+}
+
+.active-state .submit:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+
+.thank-you-state {
+    align-items: center;
+    background-color: var(--darkBlue);
+    border: 2px solid var(--darkBlue);
+    border-radius: 15px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    width: 28%;
+}
+
+.thank-you-state .thanks-image {
+    margin: 40px 0 20px;
+}
+
+.thank-you-state .selected {
+    background-color: var(--lighterBlue);
+    border-radius: 20px;
+    color: var(--orange);
+    font-size: 15px;
+    margin-bottom: 40px;
+    padding: 5px 20px;
+}
+
+.thank-you-state h2 {
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.thank-you-state p {
+    color: var(--mediumGrey);
+    font-size: 15px;
+    margin: 0 16px 40px 16px;
+    text-align: center;
+}
+
+
+
+.attribution {
+    color: var(--white);
+    margin-top: 30px;
 }

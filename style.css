@@ -6,7 +6,6 @@
     --lighterBlue: #2d3741;
     --darkBlue: #252d37;
     --veryDarkBlue: #121417;
-    --mobile: 375px;
     --desktop: 1440px;
 }
 
@@ -164,7 +163,7 @@ body {
     margin-top: 30px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 375px) {
 
     .active-state,
     .thank-you-state {
